@@ -1,0 +1,19 @@
+git clone https://github.com/elango-v/python.git python-repo
+
+git branch -a
+git branch dev
+git checkout dev
+git status
+git add -A
+git commit -m "ph uw VC2 initial version"
+git push -u origin dev
+git checkout master
+git pull origin master
+git merge dev
+git push origin master
+git branch --merged
+
+
+  
+   
+   
